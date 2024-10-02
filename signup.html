@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    
+    <style>
+
+        *{
+            text-align:center;
+        }
+        #response{
+            display:block;
+            background-color:black;
+            opacity:0.74;
+            font-family:arial;
+            visibility:hidden;
+            color:white;
+            text-align:center;
+        }
+        #pop{
+            display:block;
+            width:250px;
+            background-color:grey;color:black;
+            font-size:20px;font-family:Verdana;
+            visibility:hidden;
+            text-align:center;
+            opacity:0.9;
+           
+        }
+        #xmark{
+            margin-right:55px;
+        }
+        
+
+        a{
+                text-decoration:none;
+                color:black;
+                text-shadow:40%;
+            }
+            #signdiv{
+               
+                backdrop-filter:blur(5px);
+                display:inline-block;
+                height:1100px;
+                width:500px;
+                border:outset 3px black;
+            }
+         
+            /*client id -- 1062040782118-ab5i16cmu721crg1rnfsunj8ppb8mlbu.apps.googleusercontent.com*/
+    </style>
+        <meta name="google-signin-client_id" content="1062040782118-ab5i16cmu721crg1rnfsunj8ppb8mlbu.apps.googleusercontent.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+
+<body style="background-image:url('blue\ gradient\ wallpaper.jpeg')" text="black">
+    
+    <form method="post" >
+
+<div id="signdiv" >
+    <p style="text-align:center; font-size:50px; font-family:Cambria;">Sign up</p>
+    <i class="fa-solid fa-user fa-2x"></i><p style="font-size:20px;">Name: </p>
+   <center><input id="name"style="text-align:center;height:70px;width:250px; font-size:15px; font-family:Verdana" placeholder="Enter Your Name"></center>
+   <i class="fa-solid fa-user fa-2x" style="padding-top:40px;"></i> <p style="font-size:20px;">Email:</p>
+   <center> <input id="em"style="text-align:center;height:70px;width:250px; font-size:15px; font-family:Verdana;" placeholder="Enter Your Email id"></center>
+   <i class="fa-solid fa-phone fa-2x" style="padding-top:40px;"></i> <p style="font-size:20px;">Contact no. :</p>
+   <center> <input id="ph" style="text-align:center;height:70px;width:250px; font-size:15px; font-family:Verdana;" placeholder="Enter contact"></center>
+   <i class="fa-solid fa-lock fa-2x" style="padding-top:40px;"></i> <p style="font-size:20px;">Password: </p>
+   <center><input id="pass" style="text-align:center;height:70px;width:250px; font-size:15px; font-family:Verdana;" placeholder="Enter password"></center>
+   <center> <p style="font-size:20px;font-family:Verdana">Choose Your Country</p> </center>
+   <center><select style="height:30px; width:50px; font-size:10px;font-family:arial;">
+    <option>India  </option>
+     <option>Australia</option>
+    <option>Brazil</option>
+    <option>Albania</option>
+    <option>Iran</option>
+    <option>Iraq</option>
+    <option>Japan</option>
+    <option>China</option>
+    <option>Korea</option>
+   </select></center>
+   <center><button style="text-align:center;font-size:20px;font-family:Verdana;height:50px;width:100px; border-radius:10%;"><a id="buttonhref" href="blogging.html" style="text-decoration:none;color:black;">Submit</a></button></center>
+   <div id="response">
+
+    Your response has been saved.
+   </div>
+   <center><p style="color:black; font-size:20px; font-family:Verdana;" >Already have an account?</p><a href='' ><button style="font-size:20px; font-family:Verdana; text-decoration:none; color:black; border-radius:30%;" id="login" ><strong>Login</strong></button></a></center>
+</hr>
+<div class="g-signin2" style="display:inline-block;background-color:skyblue;opacity:0.7;border-top-left-radius:15%;text-align:center;border-bottom-right-radius:15%;padding-top:30px;" data-onsuccess="onSignIn">Sign in with <i class="fa-brands fa-google"></i> Google</div>
+</div>
+
+<div id="pop">
+    <pre>
+<i id="xmark" class="fa-solid fa-xmark"></i><a href="mailto:billieeilish005@gmail.com">billieeilish005</a>
+    <a href="mailto:rakshaadhikari697@gmail.com">rakshaadhikari697</a>
+    <a href="mailto:taehyunggggboo@gmail.com">taehyunggggboo</a>
+    <a href="mailto:potterheadd005@gmail.com">potterheadd005</a>
+    <a href="mailto:froggieee675@gmail.com">froggieee675</a>
+    <a href="mailto:2300300100135@gmail.com">2300300100135</a>
+    </pre>
+    </div>
+    <p><a href="blogging.html"style="text-decoration:none;color:black;font-size:20px;">Go to blog writing page</a></p>
+</form>
+   <script src="signup.js"></script>
+   <script src="https://apis.google.com/js/platform.js" async defer></script>
+</body>
+</html>
