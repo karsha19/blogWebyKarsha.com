@@ -2,6 +2,8 @@
 body{
 background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOL_n7qS8PSzbvYuu2DIxscT-UxQJ68TvJBQ&s");
 background-size:contain;
+opacity:0.9;
+filter:brightness(50%);
 }
 
 #flower{
@@ -11,7 +13,7 @@ background-size:contain;
     background-image:url('soft aura.jpeg');
     background-size:contain;
     margin-bottom:20px;
-    padding-bottom:20px;
+    padding-bottom:-20px;
     margin-left:30px;
 }
 #nav{
