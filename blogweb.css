@@ -1,8 +1,8 @@
 
 body{
 background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOL_n7qS8PSzbvYuu2DIxscT-UxQJ68TvJBQ&s");
+opacity:0.7;
 background-size:contain;
-opacity:0.9;
 filter:brightness(50%);
 }
 
@@ -22,6 +22,7 @@ filter:brightness(50%);
     width:1440px;
     background-color:black;
     margin-left:30px;
+    margin-bottom:5px;
 }
 .c{
     color:white;
