@@ -12,6 +12,7 @@ background-size:contain;
     background-size:contain;
     margin-bottom:40px;
     margin-left:30px;
+    border:outset 4px pink;
 }
 #nav{
     display:inline-block;
@@ -19,6 +20,7 @@ background-size:contain;
     width:1440px;
     background-color:black;
     margin-left:30px;
+    border:outset 4px black;
 }
 .c{
     color:white;
@@ -56,6 +58,7 @@ li{
     font-size:40px;
     color:rgb(54, 139, 54);
     text-align:center;
+    
 }
 button{
     position:fixed;
