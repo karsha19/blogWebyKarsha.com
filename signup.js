@@ -46,8 +46,9 @@ function disappear() {
 xmark.addEventListener("click",disappear);
 
 let country=document.querySelector("#country");
+let submitt=document.querySelector("#submitbtn");
 function cntry(){
-  button.style.visibility="hidden";
+  submitt.style.visibility="hidden";
 }
 country.addEventListener("click",cntry);
 
