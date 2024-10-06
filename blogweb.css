@@ -23,7 +23,8 @@ background-size:contain;
     margin-left:30px;
     border:outset 4px black;
 }
-.blog{
+.hehe{
+    text-align:center;
     display:inline-block;
     border:outset 5px pink;
     background-color:pink;
@@ -31,7 +32,6 @@ background-size:contain;
     border-bottom-right-radius:20%;
     border-top-right-radius:20%;
     border-bottom-left-radius:20%;
-    text-align:center;
 }
 .c{
     color:white;
