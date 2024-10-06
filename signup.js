@@ -51,6 +51,9 @@ function cntry(){
   submitt.style.visibility="hidden";
 }
 country.addEventListener("click",cntry);
+//this is to store the data in email.
+
+
 
 
 
