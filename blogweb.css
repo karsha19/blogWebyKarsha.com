@@ -23,6 +23,15 @@ background-size:contain;
     margin-left:30px;
     border:outset 4px black;
 }
+.blog{
+    display:inline-block;
+    border:outset 5px pink;
+    background-color:pink;
+    border-top-left-radius:20%;
+    border-bottom-right-radius:20%;
+    border-top-right-radius:20%;
+    border-bottom-left-radius:20%;
+}
 .c{
     color:white;
     padding-left:50px;
