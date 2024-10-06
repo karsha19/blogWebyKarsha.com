@@ -107,12 +107,14 @@
     
      </table>
      </div>
+     <form id="entertitle" action="/submit-form" method="post">
      <center><input class="title" style="font-size:30px;color:black; text-align:center;font-family:Impact;" placeholder="🔮 Enter Title"></center> 
     <center><input id="changebg" style="width:1590px; padding-bottom:30px; height:1400px; margin-right:-80px; font-size:30px;
     background-image:url(); text-align:top;border-radius:5%;border:outset 4px black;box-shadow:2px green;color:black;background-color:#EDDFE0" placeholder="Write From Here" >
     
         
     </center>
+</form>
    
     <center><button class="publish" style="height:50px; width:100px; border:solid black 3px; border-radius:5%; background-color:pink;">Publish The Blog
   <div  id="publishdiv" style="display:inline-block;background-color:grey;color:white;border-radius:5%;visibility:hidden;height:30px;width:150px;font-family:arial;">
@@ -128,6 +130,11 @@
 
 
     <script>
+        function send(){
+            document.getElementById("entertitle").submit();
+        }
+    publish.addEventListener("click",send);
+
     let colordiv=document.querySelector("#colordiv");
     let fontsrel=document.querySelector(".fontsrel");
     let squares=document.querySelectorAll(".squares");
